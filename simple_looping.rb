@@ -1,3 +1,21 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @blitzparanoia Sign out
+30
+0 147 learn-co-students/simple-loops-online-web-prework
+ Code  Issues 0  Pull requests 145  Projects 0  Insights
+simple-loops-online-web-prework/simple_looping.rb
+1adf243  on Jun 29, 2015
+@SophieDeBenedetto SophieDeBenedetto updated readme, updated methods to incl hints in comments
+@irmiller22 @SophieDeBenedetto
+     
+43 lines (30 sloc)  1.48 KB
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
@@ -8,14 +26,8 @@ def loop_iterator(number_of_times)
   #   correct number of times?
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
-  counter = 0
-  loop do
-    counter = counter + 1
-    phrase = "Welcome to Flatiron School's Web Development Course!"
-    puts phrase
-    if counter >= 7
-      break
-  end
+  phrase = "Welcome to Flatiron School's Web Development Course!"
+  
 end
 
 def times_iterator(number_of_times)
@@ -46,3 +58,16 @@ def for_iterator(number_of_times)
   
 end
 
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
